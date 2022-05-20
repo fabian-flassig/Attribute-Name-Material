@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://xmlns.pytha.com/plugin_config/1.0">
+  <header>
+    <guid>90c8a263-a1d7-4d72-bcce-ba0fcd3cc45a</guid>
+    <version>1.1</version>
+    <pytha-version>25.0</pytha-version>
+    <name>Attribute Sample "Name : Material"</name>
+    <description>A sample that provides a calculated attribute "Name : Material".</description>
+    <licensing>Copyright (c) 2020 PYTHA Lab GmbH. This plugin is distributed under the terms of the MIT license.</licensing>
+  </header>
+  
+  <extension type="attribute">
+	<id>NAME_MATERIAL</id>
+    <caption>Name : Material</caption>
+	<entry-point>evaluate_name_material</entry-point>
+  </extension>
+ 
+</plugin>
